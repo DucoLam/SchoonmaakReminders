@@ -135,6 +135,6 @@ def main(for_real=False, time=15):
 
 
 if __name__ == "__main__":
-    main(for_real=False, time=10)
+    main(for_real=True, time=20)
 
 
