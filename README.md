@@ -5,10 +5,10 @@ hun taken, gebaseerd op een Google Sheets rooster.
 
 ## 🚀 Features
 
--   Leest telefoonnummers uit Google Sheets\
--   Leest rooster uit Google Sheets\
--   Stuurt gepersonaliseerde WhatsApp-berichten\
--   Ondersteunt automatische dagelijkse uitvoering\
+-   Leest telefoonnummers uit Google Sheets
+-   Leest rooster uit Google Sheets
+-   Stuurt gepersonaliseerde WhatsApp-berichten
+-   Ondersteunt automatische dagelijkse uitvoering
 -   Gaat veilig om met lege velden (NaN)
 
 ------------------------------------------------------------------------
@@ -17,20 +17,17 @@ hun taken, gebaseerd op een Google Sheets rooster.
 
 ### Nummers
 
-  Naam   Nummer
-  ------ -------------
-  Taco   31657708366
+| Naam | Nummer      |
+|------|-------------|
+| Taco | 31657708366 |
 
 ------------------------------------------------------------------------
 
 ### Rooster
 
-  ------------------------------------------------------------------------------
-  Datum       WC        Douche   Keuken 1  Keuken 2  GR1     GR2       Huisman
-  ----------- --------- -------- --------- --------- ------- --------- ---------
-  23-3-2026   Michiel            Pino      Sjoerd    Nelis   Marleen   Remco
-
-  ------------------------------------------------------------------------------
+| Datum     | WC      | Douche | Keuken 1 | Keuken 2 | GR1   | GR2     | Huisman |
+|-----------|---------|--------|----------|----------|-------|---------|---------|
+| 23-3-2026 | Michiel |        | Pino     | Sjoerd   | Nelis | Marleen | Remco   |
 
 ⚠️ Datumformaat: **DD-MM-YYYY**
 
@@ -91,9 +88,9 @@ Dit: - draait elke dag om **09:00** - stuurt berichten voor **morgen**
 
 ## 🧠 Werking
 
-1.  Haalt nummers op → `{naam: nummer}`\
-2.  Haalt rooster op → DataFrame\
-3.  Selecteert morgen\
+1.  Haalt nummers op → `{naam: nummer}`
+2.  Haalt rooster op → DataFrame
+3.  Selecteert morgen
 4.  Stuurt berichten per taak
 
 ------------------------------------------------------------------------
@@ -102,14 +99,14 @@ Dit: - draait elke dag om **09:00** - stuurt berichten voor **morgen**
 
 ### WhatsApp Web
 
--   Eerste keer: QR-code scannen\
+-   Eerste keer: QR-code scannen
 -   Browser moet open blijven
 
 ------------------------------------------------------------------------
 
 ### Timing
 
--   `wait_time` bepaalt wachttijd\
+-   `wait_time` bepaalt wachttijd
 -   Te laag → berichten worden niet verstuurd
 
 ------------------------------------------------------------------------
