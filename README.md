@@ -5,10 +5,10 @@ hun taken, gebaseerd op een Google Sheets rooster.
 
 ## 🚀 Features
 
--   Leest telefoonnummers uit Google Sheets\
--   Leest rooster uit Google Sheets\
--   Stuurt gepersonaliseerde WhatsApp-berichten\
--   Ondersteunt automatische dagelijkse uitvoering\
+-   Leest telefoonnummers uit Google Sheets
+-   Leest rooster uit Google Sheets
+-   Stuurt gepersonaliseerde WhatsApp-berichten
+-   Ondersteunt automatische dagelijkse uitvoering
 -   Gaat veilig om met lege velden (NaN)
 
 ------------------------------------------------------------------------
